@@ -1,4 +1,4 @@
-package org.tutorials.springboottodomanagementrestapi.dto;
+package org.tutorials.springboottodomanagementrestapiwithspringsecurity.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

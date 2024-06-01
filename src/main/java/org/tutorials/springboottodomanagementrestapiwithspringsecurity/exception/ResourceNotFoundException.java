@@ -1,4 +1,4 @@
-package org.tutorials.springboottodomanagementrestapi.exception;
+package org.tutorials.springboottodomanagementrestapiwithspringsecurity.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

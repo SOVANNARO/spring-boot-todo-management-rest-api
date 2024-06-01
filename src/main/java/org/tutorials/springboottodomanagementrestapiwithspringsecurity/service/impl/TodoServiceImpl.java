@@ -1,13 +1,13 @@
-package org.tutorials.springboottodomanagementrestapi.service.impl;
+package org.tutorials.springboottodomanagementrestapiwithspringsecurity.service.impl;
 
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import org.tutorials.springboottodomanagementrestapi.dto.TodoDto;
-import org.tutorials.springboottodomanagementrestapi.entity.Todo;
-import org.tutorials.springboottodomanagementrestapi.exception.ResourceNotFoundException;
-import org.tutorials.springboottodomanagementrestapi.repository.TodoRepository;
-import org.tutorials.springboottodomanagementrestapi.service.TodoService;
+import org.tutorials.springboottodomanagementrestapiwithspringsecurity.dto.TodoDto;
+import org.tutorials.springboottodomanagementrestapiwithspringsecurity.entity.Todo;
+import org.tutorials.springboottodomanagementrestapiwithspringsecurity.exception.ResourceNotFoundException;
+import org.tutorials.springboottodomanagementrestapiwithspringsecurity.repository.TodoRepository;
+import org.tutorials.springboottodomanagementrestapiwithspringsecurity.service.TodoService;
 
 import java.util.List;
 import java.util.stream.Collectors;

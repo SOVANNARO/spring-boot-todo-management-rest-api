@@ -1,4 +1,4 @@
-package org.tutorials.springboottodomanagementrestapi;
+package org.tutorials.springboottodomanagementrestapiwithspringsecurity;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringBootTodoManagementRestApiApplication {
+public class SpringBootTodoManagementRestApiWithSpringSecurity {
 
     // config Model Mapper Library
     @Bean
@@ -15,7 +15,7 @@ public class SpringBootTodoManagementRestApiApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootTodoManagementRestApiApplication.class, args);
+        SpringApplication.run(SpringBootTodoManagementRestApiWithSpringSecurity.class, args);
     }
 
 }

@@ -1,6 +1,6 @@
-package org.tutorials.springboottodomanagementrestapi.service;
+package org.tutorials.springboottodomanagementrestapiwithspringsecurity.service;
 
-import org.tutorials.springboottodomanagementrestapi.dto.TodoDto;
+import org.tutorials.springboottodomanagementrestapiwithspringsecurity.dto.TodoDto;
 
 import java.util.List;
 
